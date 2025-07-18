@@ -1,0 +1,54 @@
+frontend/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Input.tsx
+│   │   │   ├── Modal.tsx
+│   │   │   └── LoadingSpinner.tsx
+│   │   ├── layout/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── Sidebar.tsx
+│   │   └── users/
+│   │       ├── UserList.tsx
+│   │       ├── UserForm.tsx
+│   │       ├── UserCard.tsx
+│   │       └── UserCRUD.tsx (your main component)
+│   ├── graphql/
+│   │   ├── queries/
+│   │   │   └── userQueries.ts
+│   │   ├── mutations/
+│   │   │   └── userMutations.ts
+│   │   └── client.ts
+│   ├── hooks/
+│   │   ├── useUsers.ts
+│   │   ├── useGraphQL.ts
+│   │   └── useForm.ts
+│   ├── types/
+│   │   ├── user.ts
+│   │   └── api.ts
+│   ├── utils/
+│   │   ├── helpers.ts
+│   │   ├── validators.ts
+│   │   └── constants.ts
+│   ├── contexts/
+│   │   ├── UserContext.tsx
+│   │   └── AuthContext.tsx
+│   ├── pages/
+│   │   ├── HomePage.tsx
+│   │   ├── UsersPage.tsx
+│   │   └── LoginPage.tsx
+│   ├── styles/
+│   │   ├── globals.css
+│   │   └── components.css
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── setupTests.ts
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js
+└── README.md
